@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Base.create(name: 'Luke', host: 'localhost', username: 'Homer', password: 'spiderpig', port: 5050)
+Base.create(name: 'Jake', host: 'localhost', username: 'Frodo', password: 'KaleviPoeg123', port: 5050)
