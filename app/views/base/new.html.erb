@@ -1,0 +1,13 @@
+<%= form_for @new_base do |f| %>
+    <%= f.label 'Database name:'%>
+    <%= f.text_field :name %>
+    <%= f.label 'Hostname:'%>
+    <%= f.text_field :host %>
+    <%= f.label 'Username:'%>
+    <%= f.text_field :username %>
+    <%= f.label 'Password:'%>
+    <%= f.text_field :password %>
+    <%= f.label 'Port:'%>
+    <%= f.number_field :port %>
+    <%= f.submit %>
+<% end %>
