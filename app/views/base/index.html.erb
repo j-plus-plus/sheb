@@ -1,0 +1,25 @@
+<div>
+
+  <table>
+    <thead>
+      <th>Host</th>
+      <th>Name</th>
+      <th>Username</th>
+      <th>Password</th>
+      <th>Port</th>
+    </thead>
+
+    <%= @bases.each do |base| %>
+
+    <tr>
+      <td><%= base.host %></td>
+      <td><%= base.name %></td>
+      <td><%= base.username %></td>
+      <td><%= base.password %></td>
+      <td><%= base.port %></td>
+    </tr>
+    <% end %>
+  </table>
+
+
+</div>
